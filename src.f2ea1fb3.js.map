@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";;;AACA,aADA,QAAA,oBACAA,QAAQC,IAAI","file":"src.f2ea1fb3.js","sourceRoot":"..\\src","sourcesContent":["import \"./css/styles.css\";\r\nconsole.log(\"log from js\");\r\n"]}
