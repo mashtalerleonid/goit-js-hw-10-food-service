@@ -1,3 +1,2 @@
-import "./css/style.css";
-
+import "./css/styles.css";
 console.log("log from js");
