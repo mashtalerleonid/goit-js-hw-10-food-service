@@ -7,14 +7,8 @@ const Theme = {
 const STORAGE_KEY = "theme";
 
 function checkStorage() {
-  let currentTheme = localStorage.getItem(STORAGE_KEY);
-
-  if (currentTheme) {
-    toggle.checked = currentTheme === Theme.DARK ? true : false;
-  } else {
-    currentTheme = Theme.LIGHT;
-  }
-
+  const currentTheme = localStorage.getItem(STORAGE_KEY) ?? Theme.LIGHT;
+  toggle.checked = currentTheme === Theme.DARK;
   document.body.classList.add(currentTheme);
 }
 
